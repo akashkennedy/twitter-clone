@@ -1,4 +1,5 @@
 import Button from "../components/Button";
+import Footer from "../components/Footer";
 
 const Login = () => {
   return (
@@ -34,6 +35,7 @@ const Login = () => {
         <h2 className="text-xl font-semibold mb-3">Already have an account</h2>
         <Button text="Sign in" type="outline" className="text-twitter-blue" />
       </div>
+      <Footer />
     </section>
   );
 };
