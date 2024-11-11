@@ -52,43 +52,43 @@ const SidebarLeft = () => {
         </div>
         <div className="hidden gap-5 items-center  lg:flex md:flex p-2 rounded-full hover:bg-gray-200 transition">
           <House />
-          Home
+          <span className="md:hidden lg:block">Home</span>
         </div>
         <div className="hidden gap-5 items-center lg:flex md:flex p-2 rounded-full hover:bg-gray-200 transition">
           <Search />
-          Explore
+          <span className="md:hidden lg:block">Explore</span>
         </div>
         <div className="hidden gap-5 items-center lg:flex md:flex p-2 rounded-full hover:bg-gray-200 transition">
           <Bell />
-          Notifications
+          <span className="md:hidden lg:block">Notifications</span>
         </div>
         <div className="hidden gap-5 items-center lg:flex md:flex p-2 rounded-full hover:bg-gray-200 transition">
           <Mail />
-          Messages
+          <span className="md:hidden lg:block">Messages</span>
         </div>
         <div className="hidden gap-5 items-center lg:flex md:flex p-2 rounded-full hover:bg-gray-200 transition">
           <SquareSlash />
-          Grok
+          <span className="md:hidden lg:block">Grok</span>
         </div>
         <div className="hidden gap-5 items-center lg:flex md:flex p-2 rounded-full hover:bg-gray-200 transition">
           <Users />
-          Communities
+          <span className="md:hidden lg:block">Communities</span>
         </div>
         <div className="flex gap-5 items-center p-2 rounded-full lg:hover:bg-gray-200 transition">
           <UserRound />
-          Profile
+          <span className="md:hidden lg:block">Profile</span>
         </div>
-        <div className="hidden gap-5 items-center lg:flex md:flex p-2 rounded-full hover:bg-gray-200 transition">
+        <div className="hidden gap-5 items-center lg:flex md:hidden p-2 rounded-full hover:bg-gray-200 transition">
           <CircleEllipsis />
-          More
+          <span className="md:hidden lg:block">More</span>
         </div>
-        <div className="flex gap-5 items-center md:hidden lg:hidden">
+        <div className="flex gap-5 items-center lg:hidden md:flex p-2 rounded-full hover:bg-gray-200 transition">
           <img src="/logo.svg" alt="" className="size-6" />
-          Premium
+          <span className="md:hidden">Premium</span>
         </div>
-        <div className="flex gap-5 items-center md:hidden lg:hidden">
+        <div className="flex gap-5 items-center lg:hidden md:flex p-2 rounded-full hover:bg-gray-200 transition">
           <ScrollText />
-          Lists
+          <span className="md:hidden">Lists</span>
         </div>
         <div className="flex gap-5 items-center md:hidden lg:hidden">
           <Bookmark />
